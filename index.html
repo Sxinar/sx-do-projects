@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-align">To-Do List</h1>
+        <div class="input-field">
+            <input type="text" id="taskInput" placeholder="Yeni görev ekle...">
+            <button class="btn waves-effect waves-light" onclick="addTask()">Ekle</button>
+        </div>
+        <ul class="collection" id="taskList"></ul>
+    </div>
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
